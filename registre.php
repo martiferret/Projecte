@@ -5,19 +5,6 @@
 <body>
 
 
-<h2>Vilafranca del Penedes Wifi</h2>
-
-<h4>Introdueix el codi proporcionat</h4>
-<form method="post" action="$PORTAL_ACTION$">
-<input name="auth_voucher" type="text">
-<input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$">
-<input name="zone" type="hidden" value="$PORTAL_ZONE$">
-<input name="accept" type="submit" value="Continue">
-</form>
-
-
-
-
 <?php
 error_reporting(E_ERROR | E_PARSE);
 $host = "localhost";
